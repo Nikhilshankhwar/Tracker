@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #noise-level {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
