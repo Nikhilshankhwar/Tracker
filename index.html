@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Noise Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <audio id="notification-sound" src="notification-sound.wav"></audio>
+</head>
+<body>
+  <header>
+    <h1>Background Noise Tracker</h1>
+  </header>
+  <div class="container">
+    <div id="noise-level">0 dB</div>
+    <input type="text" id="name-input" placeholder="Name">
+    <input type="email" id="email-input" placeholder="Email">
+    <input type="number" id="threshold-input" placeholder="Threshold" min="0">
+    <button id="save-profile-btn">Save Profile</button>
+    <canvas id="noise-graph"></canvas>
+    <div class="buttons">
+      <button id="start-btn">Start measuring</button>
+      <button id="stop-btn">Stop measuring</button>
+    </div>
+    <p>
+      Measure the background noise level with this background noise tracking website.
+    </p>
+    <p id="location"></p>
+  </div>
+    <div id="noise-level-visual"></div>
+  <footer>
+    <p>&copy; 2023 Background Noise Tracker</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
